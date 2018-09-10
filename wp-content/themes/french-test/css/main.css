@@ -1,0 +1,33 @@
+body{
+    background: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_top_slide > img{
+    display: block;
+    width: 100%;
+}
+.clearfix:after{
+    
+}
+
+.mak_menu{
+    list-style: none;
+}
+.sub-menu{
+    list-style: none;
+}
+.mak_menu > li{
+    float: left;
+    position: relative;
+}
+.mak_menu a{
+    color: #ffffff;
+}
+.mak_menu > li > .sub-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
