@@ -1,0 +1,7 @@
+
+<codestructure version="5.8">
+<phptree>
+<treenode node="WP_USE_THEMES;PHP:PHP Word;C:\OpenServer\domains\local.wp_fr.com\index.php;f8;13;21;13;;;;vposbool;;v;;a;;r&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Front to the WordPress application. This file doesn&apos;t do anything, but loads&#10;wp-blog-header.php which does and tells WordPress to load the theme.&#10;&lt;b&gt;package&lt;/b&gt;: WordPress;;d-1,-1;;b0,0;;m,0;;e">
+</treenode>
+</phptree>
+</codestructure>

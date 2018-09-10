@@ -19,12 +19,13 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
+
 // Ensure visibility.
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at consectetur consequuntur cum cumque earum facere fuga harum ipsam libero nam neque nesciunt nulla, quo recusandae repudiandae, vitae. Quas, suscipit?
+
 <li <?php wc_product_class(); ?>>
 	<?php
 	/**

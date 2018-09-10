@@ -1,0 +1,17 @@
+2018-09-06T10:18:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in C:\OpenServer\domains\local.wp_fr.com\wp-content\themes\french-test\woocommerce\archive-product.php on line 9 and at least 1 expected in C:\OpenServer\domains\local.wp_fr.com\wp-includes\general-template.php:134
+Stack trace:
+#0 C:\OpenServer\domains\local.wp_fr.com\wp-content\themes\french-test\woocommerce\archive-product.php(9): get_template_part()
+#1 C:\OpenServer\domains\local.wp_fr.com\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\local.wp_fr.com\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\local.wp_fr.com\index.php(17): require('C:\\OpenServer\\d...')
+#4 {main}
+  thrown
+
+2018-09-06T16:13:30+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\OpenServer\domains\local.wp_fr.com\wp-content\themes\french-test\woocommerce\archive-product.php:26
+Stack trace:
+#0 C:\OpenServer\domains\local.wp_fr.com\wp-includes\template-loader.php(74): include()
+#1 C:\OpenServer\domains\local.wp_fr.com\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\local.wp_fr.com\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown
+

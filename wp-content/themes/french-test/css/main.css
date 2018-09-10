@@ -1,5 +1,6 @@
 body{
     background: beige;
+    font-family: 'Roboto', sans-serif;
 }
 *{
     margin: 0;
@@ -15,6 +16,12 @@ body{
 
 .mak_menu{
     list-style: none;
+    position: relative;
+}
+.mak_menu:after{
+    content: '';
+    display: table;
+    clear: both;
 }
 .sub-menu{
     list-style: none;
@@ -23,11 +30,65 @@ body{
     float: left;
     position: relative;
 }
+.mak_menu > li.full_sub{
+    position: static;
+}
 .mak_menu a{
     color: #ffffff;
 }
 .mak_menu > li > .sub-menu{
+    visibility: hidden;
     position: absolute;
     left: 0;
     top: 100%;
+    width:100%;
+    background-color: #ffffff;
+}
+/*submenus*/
+.full_menu{
+    background-color: #ffffff;
+}
+
+#menu-application-submenu{
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+#menu-application-submenu:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#menu-application-submenu > li a{
+    display: block;
+    position: relative;
+}
+
+#menu-application-submenu > li{
+    width: 15%;
+    padding:0.7%;
+    float: left;
+    box-sizing: border-box;
+}
+#menu-application-submenu .menu-image-title{
+    height:40px;
+    background-color: rgb(235, 235, 235);
+    color: #797979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    transition: all 0.2s;
+}
+#menu-application-submenu > li a{
+    text-decoration: none;
+}
+#menu-application-submenu  > li a:hover .menu-image-title{
+    background-color: #F6A700;
+    color: #f7f7f7;
+
 }

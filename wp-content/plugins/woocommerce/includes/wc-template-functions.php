@@ -927,6 +927,7 @@ if ( ! function_exists( 'woocommerce_output_content_wrapper' ) ) {
 	 * Output the start of the page wrapper.
 	 */
 	function woocommerce_output_content_wrapper() {
+
 		wc_get_template( 'global/wrapper-start.php' );
 	}
 }
@@ -1276,7 +1277,7 @@ if ( ! function_exists( 'woocommerce_result_count' ) ) {
 		}
 		$args = array(
 			'total'    => wc_get_loop_prop( 'total' ),
-			'per_page' => wc_get_loop_prop( 'per_page' ),
+			'per_page' => wc_get_loop_prop( 'per_page'),
 			'current'  => wc_get_loop_prop( 'current_page' ),
 		);
 
